@@ -55,3 +55,28 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# .NET
+**/bin/
+**/obj/
+*.user
+*.suo
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+
+# Python
+**/.venv/
+**/__pycache__/
+*.pyc
+
+# Environment / local secrets
+.env
+*.env
+local.settings.json
+appsettings.Local.json
+
+# OS
+.DS_Store
+Thumbs.db
